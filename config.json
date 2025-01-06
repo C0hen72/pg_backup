@@ -1,0 +1,21 @@
+{
+  "databases": [
+    {
+      "hostname": "127.0.0.1",
+      "port": 5432,
+      "username": "user1",
+      "password": "password1",
+      "backup_dir": "/backups/db1",
+      "retain_days": 7,
+      "db_names": ["db1", "db2"]
+    },
+    {
+      "hostname": "192.168.1.10",
+      "port": 5432,
+      "username": "user2",
+      "password": "password2",
+      "backup_dir": "/backups/db2",
+      "retain_days": -1
+    }
+  ]
+}
